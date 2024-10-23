@@ -1,0 +1,107 @@
+.seleccion-elementos {
+    width: 80rem;
+    height: 95vh;
+    border: solid 2px #3585e79c;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: rgba(247, 247, 248, 0.967);
+    box-shadow: 0px 0px 2px 1px rgb(194, 193, 193);
+}
+
+.lista-tablas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 2rem;
+    margin-top: 5vh;
+}
+
+.barra-comandos-eleme {
+    width: 30%;
+    height: 100%;
+    margin-bottom: 3vh;
+    position: absolute;
+}
+
+.campos-entrada-tabla {
+    margin-top: 2vh;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Lista-opciones-tabla {
+    width: 100%;
+    height: 2rem;
+}
+
+.tablas {
+    margin-top: 5vh;
+    margin-left: 30%;
+}
+
+.table {
+    border: solid 1px black;
+    /* margin-left: 30%; */
+}
+
+.th {
+    border: solid 1px black;
+    width: 80px;
+    background: linear-gradient(to top, #3782de2b, #3783de);
+    color: white;
+}
+
+.td0, .td1, .td2, .td3, .td4 {
+    border: solid 1px black;
+    text-align: center;
+    background-color: #fff;
+    color: #4f6074;
+    width: 150px;
+}
+
+/**************/
+.respuesta {
+    color: rgb(215, 213, 213);
+    display: inline;
+}
+
+.elemento-seleccionado {
+    background-color: #c2d4ea;
+    animation-name: animar;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+}
+
+.salida-datos {
+    width: 85%;
+    /* height: 6rem; */
+    background: linear-gradient(to top, #3782de9a, #3783de);
+    color: white;
+    display: grid;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-top: 3vh;
+    animation-name: animar;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes animar {
+    0% {
+        background-color: #c2d4ea;
+    }
+
+    50% {
+        background-color: #5ba3fb;
+    }
+
+    100% {
+        background-color: #c2d4ea;
+    }
+}
